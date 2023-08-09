@@ -1,0 +1,232 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav{
+    height:40px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(55, 82, 101);
+}
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 100vw;
+}
+
+.img1{
+    /* background-image: url('IMAGE/Screenshot\ 2023-07-22\ 135103.png');
+    background-repeat: no-repeat;
+    background-size:cover; */
+    height: 28px;
+    width: 29px;
+    border: none;
+    outline: none;
+    margin-left:3px ;
+}
+.img1:hover{
+    box-shadow: 2px 2px rgba(32, 47, 58, 0.517);
+    
+}
+
+.home{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center;*/
+    justify-content: space-between;
+    width: 40vw;
+    height:4.5vh;
+    padding: 3px;
+    /* background-color: aqua; */
+}
+
+.item{
+    height: 28px;
+    width: 29px;
+    border: none; 
+    background-color: transparent; 
+}
+.item:hover{
+    box-shadow: 2px 2px rgba(32, 47, 58, 0.517);
+    
+}
+/* .item1{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 141014.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+#search-bar{
+    height: 29px;
+    width: 128px;
+    border-radius:1rem;
+    background-color: rgb(33, 58, 75);
+    color: white;
+    outline: none;
+    padding: 10px;
+    border: none;
+
+}
+.icon{
+    position: relative;
+    top: 6px;
+    left: 116px;
+}
+.item2{
+    height: 4.5vh;
+    width: 9vw;
+    border-radius:1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+/* .item3{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 142803.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+/* .item4{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 144349.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+/* .item5{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 145734.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+/* .item6{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 145844.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+} */
+ 
+.item7{
+    width: 10vw;
+}
+.item7>label{
+    color: aliceblue;
+    font-size: small;
+}
+#sec{
+    background-color: transparent;
+    color: white;
+border: none;
+}
+#sec>option{
+    display: none;
+}
+
+
+
+.container{
+   background-color: rgba(223, 222, 217, 0.379);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.section{
+height: 5vh;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.work{
+    padding: 9px;
+    font-size: 22px;
+    font-weight:bold ;
+}
+
+.layout{
+    padding: 9px;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.sec1{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+}
+#sec2{
+   background-color: rgba(239, 234, 234, 0.697);
+}
+
+.img2{
+    width: 224px;
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 155827.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+
+.section1{
+    height: 90vh;
+    width: 99%;
+    gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    /* background-color: black; */
+    padding: 5px;
+    
+}
+
+.section2{
+  /* background-color: aquamarine; */
+  height: 90vh;
+  width: 43%;
+  gap: .6rem;
+  display: flex;
+   flex-direction: column;
+   padding: 3px;
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    gap: .8rem;
+}
+.a{
+  font-size: smaller;
+  text-decoration: none;
+}
+.a:link,.a:active,.a:visited{
+    color: rgba(13, 104, 152, 0.903);
+}
+.a:hover{
+    text-decoration: overline;
+}
+
+.section3{
+  height: 90vh;
+  width: 57%;
+}
+
+
+.img5{
+    background-image: url('IMAGE/Screenshot\ 2023-07-22\ 173820.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    padding: 5px;
+    border: 1px solid black;
+    
+}
+
+
+table{
+    font-size: small;
+    overflow: scroll;
+    background-color:rgb(235, 230, 230);;
+    height: 250px;
+
+}
